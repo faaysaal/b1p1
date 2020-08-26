@@ -351,8 +351,10 @@
 	padding:10px;
 }
 .footer-widget .content .links a {
-	display: inline-block;
+	display: block;
 	padding: 15px 45px;
+	width: 300px;
+	margin: auto;
 	margin-bottom: 10px;
 }
 .footer-widget .newsletter .email {
@@ -408,6 +410,9 @@
    .pdf-item {
     width:48%;
   }
+  .footer-widget .content .links a {
+    width:100%;
+  }
 }
 /****** max-360 ***/
 @media screen and (max-width:360px){
@@ -420,25 +425,3 @@
  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
